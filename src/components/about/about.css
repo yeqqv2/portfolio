@@ -1,0 +1,49 @@
+.about {
+    height: 80vh;
+    flex: 1;
+    position: relative;
+}
+
+.about-container {
+    width: 80%;
+    height: 100%;
+    right: 10%;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+}
+
+.aboutme {
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.aboutme h1 {
+    color: #AAA9A3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    font-size: 40px;
+}
+
+.aboutme p {
+    margin-top: -10px;
+    text-align: flex-end;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.about-image {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.about-image img {
+    border-radius: 20px;
+    filter: brightness(.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .6);
+}

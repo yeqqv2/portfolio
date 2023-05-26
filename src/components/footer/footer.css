@@ -1,0 +1,31 @@
+.footer-container {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.social-media {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    width: 80%;
+    position: relative;
+    background: rgba(255, 255, 255, 255, .2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    padding: 8px;
+    text-align: center;
+    color: #264653;
+}

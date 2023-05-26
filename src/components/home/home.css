@@ -1,0 +1,54 @@
+.home {
+    background-color: #e0e0e0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-container {
+    width: 80%;
+    height: 100vh;
+    right: 10%;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+}
+
+.home-links {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    margin: 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.home-context {
+    flex: 9;
+    justify-content: start;
+    align-items: start;
+    height: 70%;
+
+}
+
+.home-paragraph {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-paragraph h1 {
+    color: #AAA9A3;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    font-size: 40px;
+}
+
+.home-paragraph p {
+    margin-top: -10px;
+    text-align: flex-end;
+    font-size: 25px;
+    font-weight: 300;
+}

@@ -1,0 +1,95 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.App {
+    height: 100%;
+    background-color: #e0e0e0;
+}
+
+#hometext {
+    color: #90e0ef;
+    filter: blur(5px);
+    opacity: .5;
+    user-select: none;
+    margin-bottom: -50px;
+    transition: all 1s;
+}
+
+#hometext:hover {
+    filter: blur(0px);
+    opacity: 1;
+    color: #264653;
+}
+
+#aboutmetext {
+    color: #48cae4;
+    filter: blur(5px);
+    opacity: .5;
+    user-select: none;
+    margin-bottom: -50px;
+    transition: all 1s;
+}
+
+#aboutmetext:hover {
+    filter: blur(0px);
+    opacity: 1;
+    color: #264653;
+}
+
+#skillstext {
+    color: #00b4d8;
+    filter: blur(5px);
+    opacity: .5;
+    user-select: none;
+    margin-bottom: -50px;
+    transition: all 1s;
+}
+
+#skillstext:hover {
+    filter: blur(0px);
+    opacity: 1;
+    color: #264653;
+}
+
+#projectstext {
+    color: #0096c7;
+    filter: blur(5px);
+    opacity: .5;
+    user-select: none;
+    margin-bottom: -50px;
+    transition: all 1s;
+}
+
+#projectstext:hover {
+    filter: blur(0px);
+    opacity: 1;
+    color: #264653;
+}
+
+#contacttext {
+    color: #0077b6;
+    filter: blur(5px);
+    opacity: .5;
+    user-select: none;
+    transition: all 1s;
+}
+
+#contacttext:hover {
+    filter: blur(0px);
+    opacity: 1;
+    color: #264653;
+}
+
+.mainTitle {
+    font-size: 6rem;
+    color: #0096c7;
+    filter: blur(5px);
+    opacity: .5;
+    user-select: none;
+    margin-bottom: -50px;
+    position: absolute;
+    right: 0;
+    z-index: 55;
+    top: 0;
+}
